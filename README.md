@@ -1,24 +1,21 @@
-# Repository for exercises from freeCodeCamp.
+# Repository for exercises from [freeCodeCamp](https://www.freecodecamp.org)
 
-### HTML5 and CSS
+#### HTML5 and CSS
 
-### Responsive Design with Bootstrap
+#### Responsive Design with Bootstrap
 
-### jQuery
+#### jQuery
 
-### Basic Front End Development Projects
+#### Basic Front End Development Projects
 
-### Basic JavaScript
+#### Basic JavaScript
 
-### Object Oriented and Functional Programming
+#### Object Oriented and Functional Programming
 
-### Basic Algorithm Scripting
-	`(50 hours)`
+#### Basic Algorithm Scripting (50 hours)
 
-### JSON APIs and Ajax
+#### JSON APIs and Ajax
 
-### Intermediate Front End Development Projects
-	`(100 hours)`
+#### Intermediate Front End Development Projects (100 hours)
 
-### Intermediate Algorithm Scripting
-	`(50 hours)`
+#### Intermediate Algorithm Scripting (50 hours)
