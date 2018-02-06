@@ -1,0 +1,25 @@
+<!-- It doesn't matter whether you declare this css above or below pink-text class, 
+     since id attribute will always take precedence.
+     in-line styles will override all the CSS declarations in your style element. 
+-->
+
+<style>
+  body {
+    background-color: black;
+    font-family: Monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+  #orange-text {
+    color: orange;
+  }
+</style>
+
+<h1 id="orange-text" class="pink-text blue-text">Hello World!</h1>
+
+<h2 style="color:white" id="orange-text" class="pink-text blue-text">Hello Love!</h2>
