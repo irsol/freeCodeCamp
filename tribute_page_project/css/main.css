@@ -3,12 +3,12 @@
 }
 
 body {
-  padding: 20px 0;
+  padding: 10px 0;
   font: 300 14px "Lato", sans-serif;
   color: #666756;
   background: #fff;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 img {
@@ -16,11 +16,21 @@ img {
 	
 }
 
+a,
+a:hover,
+a:visited {
+  color: #02b3e4;
+  font-size: 1.2em;
+}
+
 .img-fluid {
 	max-width: 100%;
 	height: auto;
 }
 
-.thumbnail {
-	border-radius: 1px;
+.article {
+	text-align: justify;
+	padding: 0 15px 15px 0;
+
 }
+
