@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px 0;
+  font: 300 14px "Lato", sans-serif;
+  color: #666756;
+  background: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+img {
+	width: 800px;
+	
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+.thumbnail {
+	border-radius: 1px;
+}
