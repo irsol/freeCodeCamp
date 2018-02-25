@@ -1,5 +1,7 @@
 # freeCodeCamp Tribute Page Project
 
+"Build a Tribute Page" is a [freeCodeCamp](https://www.freecodecamp.org) challenge as part of the Front End Development Certification.
+
 ## Project structure
 
 	- index.html - main page of the website
