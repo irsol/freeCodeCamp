@@ -1,14 +1,15 @@
 * {
-  box-sizing: border-box;
+  	box-sizing: border-box;
 }
 
 body {
-  padding: 10px 0;
-  font: 300 14px "Lato", sans-serif;
-  color: #666756;
-  background: #fff;
-  margin-top: 20px;
-  margin-bottom: 10px;
+	font-family: 'Lato', sans-serif;
+  	padding: 10px 0;
+  	font: 300 15px;
+  	color: #666756;
+  	background: #fff;
+  	margin-top: 20px;
+  	margin-bottom: 10px;
 }
 
 img {
@@ -19,13 +20,15 @@ img {
 a,
 a:hover,
 a:visited {
-  color: #02b3e4;
-  font-size: 1.2em;
+	color: #02b3e4;
+  	font-size: 1.2em;
 }
 
-.img-fluid {
-	max-width: 100%;
-	height: auto;
+footer.navbar-default.navbar-block-bottom {
+	height: 2em;
+  	margin-top: 0.5em;
+  	padding: 0.3em 0;
+
 }
 
 .article {
@@ -34,9 +37,10 @@ a:visited {
 
 }
 
-footer.navbar-default.navbar-block-bottom {
-  height: 2em;
-  margin-top: 0.5em;
-  padding: 0.3em 0;
-
+.img-fluid {
+	max-width: 100%;
+	height: auto;
 }
+
+
+
