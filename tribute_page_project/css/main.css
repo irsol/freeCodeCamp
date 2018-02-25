@@ -8,7 +8,7 @@ body {
   color: #666756;
   background: #fff;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 img {
@@ -34,3 +34,9 @@ a:visited {
 
 }
 
+footer.navbar-default.navbar-block-bottom {
+  height: 2em;
+  margin-top: 0.5em;
+  padding: 0.3em 0;
+
+}
