@@ -12,26 +12,34 @@ body {
   min-height: 100%;
   padding-bottom: 30px;
   position: relative;
-}
-
-.navbar .container a,
-.navbar .container a:visited,
-.navbar .container a:active,
-.navbar .container a:focus {
-  color: #fff;
-  font-size: 1.4rem;
-  padding-right: 8px;
+  padding-top: 10px; /* for the fixed navbar */
 }
 
 .navbar {
-  background-color: #23424D;
-  border: none;
-  font-family: Lato, sans-serif;
-  letter-spacing: 8px;
-  text-transform: uppercase;
+	background-color: #CACECF;
+	border: none;
+	margin-bottom: 0;
+	&.navbar-default .navbar-nav > li > a,
+	&.navbar-default .navbar-header .navbar-brand {
+		font-family: "Lato", san-serif;
+		
+	}
+
 }
 
-.navbar .container {
-  padding: 0 15px;
-  width: 100%;
+#topheader .navbar-nav li > a {
+	text-transform: capitalize;
+	color: #333;
+	transition: background-color .2s, color .2s;
+	
+	&:hover,
+	&:focus {
+		background-color: #333;
+		color: #fff;
+	}
+}
+
+#topheader .navbar-nav li.active > a {
+
+	color: #fff;
 }
