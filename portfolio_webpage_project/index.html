@@ -21,29 +21,39 @@
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/main.css">
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
 
 	<!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+
+    <!-- jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script src="node_modules/jquery-parallax.js/parallax.min.js"></script>
+
+    <!-- JS -->
+    <script type="js/script.js"></script>
+
+
+
 </head>
 
 
 <body>
-	<div id="topheader">
-		
-	
+				
 	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				
 					<span class="sr-only">Toggle navigation</span>
         			<span class="icon-bar"></span>
         			<span class="icon-bar"></span>
-        			<span class="icon-bar"></span>
-        			<a class="navbar-brand brand-name navbar-left" href="#home">Iryna Soltyska</a>
-				</button>				
+        			<span class="icon-bar"></span>        			
+				</button>
+				<a class="navbar-brand navbar-left" href="#">Iryna Soltyska</a>				
 			</div> <!-- /.navbar-header -->
 			
 			<!-- Collect the nav links, forms, and other content for toggling -->
@@ -55,10 +65,19 @@
 					<li><a href="#contact">Contact</a></li>
 				</ul>			
 			</div> <!-- /.collapse navbar-collapse -->
-
 		</div> <!-- /.container -->
 	</nav> <!-- /.nav -->
-	</div>
+
+	<div class="parallax-window">
+  		<div class="parallax-slider">
+   			 <span style="position:absolute; top: 400px; left: 400px;"></span>
+   			 <img src="img/venice-640-medium.jpg" srcset="img/venice-320-small.jpg 320w, img/venice-640-medium.jpg 640w, img/venice-1024-large.jpg 1024w" sizes="100vw">
+			 <p class="about">Full Stack Web Developer</p>
+  		</div>
+	</div> <!-- parallax-window -->
+
+
+	
 </body>
 
 </html>

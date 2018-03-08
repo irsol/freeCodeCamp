@@ -25,7 +25,7 @@ body {
 	text-transform: uppercase;
 }
 
-.navbar .container {
+.navbar .container-fluid {
 	width: 100%;
 }
 
@@ -41,21 +41,21 @@ body {
 } */
 
 
-.nav .container .navbar-brand li a:hover {
+.nav .container-fluid .navbar-brand li a:hover {
 	color: #fff;
 }
 
-.navbar .container a,
-.navbar .container a:visited,
-.navbar .container a:active,
-.navbar .container a:focus {
-  	color: #CC6699; /*pink*/
-  	font-size: 1.5rem;
-  	padding-right: 15px;
+.navbar .container-fluid a,
+.navbar .container-fluid a:visited,
+.navbar .container-fluid a:active,
+.navbar .container-fluid a:focus {
+  color: #CC6699; /*pink*/
+	font-size: 1.5rem;
+	padding-right: 15px;
+  transition: color 0.5s ease-in-out;    
 } 
 
-#nav .navbar-header a{
-  font-family: "Lato", cursive;
-  color: #CC6699;
-  font-size: 1.5em;
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
 }
