@@ -16,30 +16,46 @@ body {
 }
 
 .navbar {
-	background-color: #CACECF;
+	background-color: #c0dee5;
 	border: none;
+	font-family: "Lato", sans-serif;
+	font-weight: normal;
+	letter-spacing: 8px;
 	margin-bottom: 0;
-	&.navbar-default .navbar-nav > li > a,
-	&.navbar-default .navbar-header .navbar-brand {
-		font-family: "Lato", san-serif;
+	text-transform: uppercase;
+}
+
+.navbar .container {
+	width: 100%;
+}
+
+
+
+/*.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-header .navbar-brand {
 		
-	}
+	font-family: "Lato", san-serif;
+	text-transform: uppercase;
+	transition: color 0.3s ease-in-out;
+	color: #38648c;
+} */
 
-}
 
-#topheader .navbar-nav li > a {
-	text-transform: capitalize;
-	color: #333;
-	transition: background-color .2s, color .2s;
-	
-	&:hover,
-	&:focus {
-		background-color: #333;
-		color: #fff;
-	}
-}
-
-#topheader .navbar-nav li.active > a {
-
+.nav .container .navbar-brand li a:hover {
 	color: #fff;
+}
+
+.navbar .container a,
+.navbar .container a:visited,
+.navbar .container a:active,
+.navbar .container a:focus {
+  	color: #CC6699; /*pink*/
+  	font-size: 1.5rem;
+  	padding-right: 15px;
+} 
+
+#nav .navbar-header a{
+  font-family: "Lato", cursive;
+  color: #CC6699;
+  font-size: 1.5em;
 }
