@@ -51,7 +51,7 @@ body {
 .navbar .container-fluid a:focus {
   color: #CC6699; /*pink*/
 	font-size: 1.5rem;
-	padding-right: 15px;
+	padding-right: 20px;
   transition: color 0.5s ease-in-out;    
 } 
 
@@ -61,11 +61,22 @@ body {
   background: transparent;
 }
 
- h3 {
-
+ h2 {
   color: #CC6500;
   font-size: 3.0em;
   font-family: "Lato", sans-serif;
-  z-index: 150;
  }
+
+
+section {
+  height: 100%;
+  display: table;
+  vertical-align: middle;
+  float: none;
+    .content {
+    padding-top: 130px;
+    padding-bottom: 30px;
+  }
+
+}
 
